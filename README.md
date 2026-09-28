@@ -65,3 +65,7 @@ not yet carried a real task from start to finish in a fresh session.
 
 Add a lesson when something goes wrong, with the evidence. Remove a rule when it stops paying for itself.
 The roster is a measurement with a date: rerun the casting before trusting it for a new kind of task.
+
+## Licence
+
+MIT, see `LICENSE`. Use it for anything; keep the copyright notice.
