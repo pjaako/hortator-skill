@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Pavel Gromovikov
 # Run one local coder on one task in one repository, then report what it left behind.
 # Usage: dispatch_local.sh <repo> <preset> "<task sentence>" [timeout_s]
 # Configuration: ~/.config/hortator/site.env (or $HORTATOR_SITE_ENV), see site.example/site.env.

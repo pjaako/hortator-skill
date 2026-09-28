@@ -68,4 +68,4 @@ The roster is a measurement with a date: rerun the casting before trusting it fo
 
 ## Licence
 
-MIT, see `LICENSE`. Use it for anything; keep the copyright notice.
+MIT, copyright (c) 2026 Pavel Gromovikov. See `LICENSE`. Use it for anything; keep the copyright notice.

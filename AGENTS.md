@@ -10,3 +10,4 @@ This repository is the method for acting as project owner. Start with `skills/ho
   model inventories or anything else that describes one installation. Such data goes to
   `~/.config/hortator/` (templates in `skills/hortator/site.example/`). Before committing run
   `grep -rnIE '/home/|192\.168\.|10\.[0-9]+\.[0-9]+\.' .` and expect no hits outside `.git`.
+- Licence: MIT for everything. `skills/hortator/LICENSE` is a copy of the root `LICENSE` and must stay inside the skill folder, because the folder is installed on its own.
