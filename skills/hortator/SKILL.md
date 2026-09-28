@@ -52,6 +52,9 @@ anything that may be published: they go into the site file or into the project's
 - **System settings, credentials, purchases and public pushes belong to the boss.** Prepare the file or the
   command and hand it over. Before anything goes public, scan the whole history for secrets and
   identifying data.
+- **Fail early and out loud.** If you cannot do a step properly (no access to the target, no coder that
+  fits, a check you cannot build), stop and report what is missing. Never replace a step with a weaker
+  one silently, and never invent a result to keep going.
 - **Say what is not verified.** Every report names what was checked on reality, what only on a fake, and what
   not at all.
 
@@ -66,8 +69,9 @@ anything that may be published: they go into the site file or into the project's
 | Review of a large diff, second opinion | a cloud subagent with a stronger model |
 
 Which coders exist here and how they behave: the site file. If it lists no local coders, or the hardware
-or the kind of task has changed, interview candidates first (`reference/casting.md`): only models that fit
-the GPU **together with** a coding-sized context, 64K tokens per coder or more, are candidates at all. How to start and brief them:
+or the kind of task has changed, interview candidates first (`reference/casting.md`). You build the interview yourself; if one of its
+gates fails, stop and report. Only models that fit the GPU **together with** a coding-sized context, 64K
+tokens per coder or more, are candidates at all. How to start and brief them:
 `reference/dispatch.md`. Respect the boss's quiet hours and his preference for cloud or local; when the
 site file is silent and it matters (noise, cost, privacy), ask.
 

@@ -4,6 +4,28 @@ Do this once per installation, and again when the hardware, the engine or the ki
 result goes into the site file, with the date and the task set. Ask the boss before starting: a casting
 occupies the GPU for an hour or more.
 
+No kit is shipped with this skill, on purpose. You build the tasks, the hidden tests and the runner
+yourself, for the language and the kind of work this installation does. If you cannot, that is a finding:
+stop and report it. Do not hand work to a coder you could not measure.
+
+## 0. Gates: stop at the first one that fails
+
+Each gate is a check you run, not an assumption you make. On a failure, stop the casting, tell the boss
+which gate failed and what you observed, and fall back to coders that are already measured, to cloud
+coders, or to doing the work yourself.
+
+| Gate | Passes when |
+|---|---|
+| Hardware is known | you have read GPU memory, system memory and swap from the machine, not from memory or a document |
+| Something fits | at least one candidate loads with 64K of context for one coder, weights fully on the GPU |
+| The harness works | a trivial task runs end to end through the harness, with real tool calls and a changed file |
+| The tasks are sound | every task starts in the intended state: the failing test fails for the intended reason, the others pass |
+| The grading is sound | your own reference solution passes every hidden test, and the untouched task fails them |
+| The kit is solvable | a coder you already trust passes it; if nobody can pass a task, the task is wrong |
+| The runs are clean | each run starts from a fresh copy; a timeout is recorded as a timeout, not as a failure of the coder |
+
+A casting that skipped a gate produces numbers, not knowledge.
+
 ## 1. Shortlist what fits the hardware
 
 A coder is useful only if the model **and** its working context fit in GPU memory together.
