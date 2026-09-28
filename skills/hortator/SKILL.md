@@ -32,6 +32,10 @@ anything that may be published: they go into the site file or into the project's
    run the thing on the real target. Green tests on a fake prove only that the code matches the fake.
 7. **Feed findings back**: fix the fake or the spec so the same defect cannot pass again.
 8. **Record** decisions and findings in the project's own docs, commit, report to the boss.
+9. **Clean up and pass on.** Remove scratch files, also those outside the repository, or say where they
+   are. If the work taught you something about the method itself, add it to `reference/lessons.md` in the
+   hortator repository (the site file says where it is; the installed skill is a copy and is overwritten
+   on update). If you cannot write there, put the lesson in your report.
 
 ## Rules that are not negotiable
 

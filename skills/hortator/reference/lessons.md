@@ -4,6 +4,8 @@ Each entry: what happened, the evidence, the rule. Add new ones at the top, with
 
 | Date | What happened | Rule |
 |---|---|---|
+| 2026-09-28 | First real task run by a cold agent from this skill alone. It measured before specifying, used one cloud coder, accepted on the device and in a browser, and found a defect in the state restore written by the previous project owner. It left five scratch pictures outside the repository and recorded its method-level finding only in the project. | Scratch outside the repository is cleaned or reported. Lessons about the method go to this file. |
+| 2026-09-28 | Adding one more item to a state restore broke an item that had been restored correctly before: the order of writes mattered, and it showed only on the device, in 2 of 4 runs. | When a restore learns something new, re-verify on the real target everything it restored before, after a delay, several times. |
 | 2026-09-28 | A cold agent given only this skill could not tell whether it was allowed to touch the device with nobody on site: the project said "for the human/manager", the skill said nothing. | Say explicitly who may touch the real target, remotely and unattended, and where that stops. |
 | 2026-09-28 | A hand-written hardware check raised halfway and left the user's instrument reset. The agent recovered it remotely from a setup block it had saved earlier; nobody was on site. | Hardware checks run in `try/finally` with restore; save the state before the first change. |
 | 2026-09-28 | `200 us/div` became `0.00019999999999999998`; the instrument set 198 us/div. 92 tests on the fake were green. | Send numbers in decimal with limited digits. Only the real target shows what it does with your input. |
