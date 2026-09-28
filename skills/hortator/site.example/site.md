@@ -27,7 +27,8 @@ Everything here is local knowledge: the skill itself must work without it, only 
 | <cloud model> | <Agent tool, model name> | - | <n/m on <task set>, <date>> | <...> |
 | <local model, quant> | <command or preset> | <tokens> | <n/m on <task set>, <date>> | <...> |
 
-Scores are measurements with a date on a particular task set. Say which.
+Scores are measurements with a date on a particular task set. Say which. "Context" is what the model is
+actually started with, after checking that weights plus context fit in GPU memory (`reference/casting.md`).
 
 ## Shared resources
 

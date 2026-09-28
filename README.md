@@ -13,6 +13,7 @@ including the mistakes. It is a method, not a framework: a skill, three referenc
 |---|---|
 | `skills/hortator/SKILL.md` | the skill: the loop, the rules, who does what |
 | `skills/hortator/reference/dispatch.md` | roster of coders, how to start cloud and local ones |
+| `skills/hortator/reference/casting.md` | how to interview local models: what fits the hardware, context needs, the tasks |
 | `skills/hortator/reference/acceptance.md` | how to check a coder's claim, especially on hardware |
 | `skills/hortator/reference/lessons.md` | what went wrong and the rule that came out of it |
 | `skills/hortator/templates/` | spec, subagent prompt, handoff |

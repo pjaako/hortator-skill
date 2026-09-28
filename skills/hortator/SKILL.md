@@ -65,7 +65,9 @@ anything that may be published: they go into the site file or into the project's
 | Independent modules | several coders in parallel, one spec each, separate worktrees |
 | Review of a large diff, second opinion | a cloud subagent with a stronger model |
 
-Which coders exist here and how they behave: the site file. How to start and brief them:
+Which coders exist here and how they behave: the site file. If it lists no local coders, or the hardware
+or the kind of task has changed, interview candidates first (`reference/casting.md`): only models that fit
+the GPU **together with** a coding-sized context, 64K tokens per coder or more, are candidates at all. How to start and brief them:
 `reference/dispatch.md`. Respect the boss's quiet hours and his preference for cloud or local; when the
 site file is silent and it matters (noise, cost, privacy), ask.
 
